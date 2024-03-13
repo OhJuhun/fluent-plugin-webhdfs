@@ -369,6 +369,7 @@ class WebHDFSOutputTest < Test::Unit::TestCase
           renew_kerberos_delegation_token: d.instance.instance_eval("@renew_kerberos_delegation_token"),
           renew_kerberos_delegation_token_interval: d.instance.instance_eval("@renew_kerberos_delegation_token_interval"),
           renew_kerberos_delegation_token_interval_hour: d.instance.instance_eval("@renew_kerberos_delegation_token_interval_hour"),
+          kerberos_delegation_token_max_lifetime: d.instance.instance_eval("@kerberos_delegation_token_max_lifetime"),
           kerberos_delegation_token_max_lifetime_hour: d.instance.instance_eval("@kerberos_delegation_token_max_lifetime_hour"),
         })
     end
@@ -403,6 +404,7 @@ class WebHDFSOutputTest < Test::Unit::TestCase
           renew_kerberos_delegation_token: d.instance.instance_eval("@renew_kerberos_delegation_token"),
           renew_kerberos_delegation_token_interval: d.instance.instance_eval("@renew_kerberos_delegation_token_interval"),
           renew_kerberos_delegation_token_interval_hour: d.instance.instance_eval("@renew_kerberos_delegation_token_interval_hour"),
+          kerberos_delegation_token_max_lifetime: d.instance.instance_eval("@kerberos_delegation_token_max_lifetime"),
           kerberos_delegation_token_max_lifetime_hour: d.instance.instance_eval("@kerberos_delegation_token_max_lifetime_hour"),
         })
     end
